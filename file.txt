@@ -1,0 +1,36 @@
+ ~/Р/G/tmp  master ?1  git add ./*                                    128 ✘ 
+warning: добавление встроенного git репозитория: test
+подсказка: You've added another git repository inside your current repository.
+подсказка: Clones of the outer repository will not contain the contents of
+подсказка: the embedded repository and will not know how to obtain it.
+подсказка: If you meant to add a submodule, use:
+подсказка: 
+подсказка: 	git submodule add <url> test
+подсказка: 
+подсказка: If you added this path by mistake, you can remove it from the
+подсказка: index with:
+подсказка: 
+подсказка: 	git rm --cached test
+подсказка: 
+подсказка: See "git help submodule" for more information.
+
+ ~/Р/GitRepo/tmp  master +1  git commit -m "result"                       ✔ 
+[master 6c8aed9] result
+ 1 file changed, 1 insertion(+)
+ create mode 160000 test
+
+ ~/Р/GitRepo/tmp  master  git push origin master                          ✔ 
+Перечисление объектов: 12, готово.
+Подсчет объектов: 100% (12/12), готово.
+При сжатии изменений используется до 12 потоков
+Сжатие объектов: 100% (6/6), готово.
+Запись объектов: 100% (12/12), 1.03 КиБ | 1.03 МиБ/с, готово.
+Всего 12 (изменений 0), повторно использовано 0 (изменений 0), повторно использовано пакетов 0
+remote: 
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/motorollainlinux/GitTest/pull/new/master
+remote: 
+To github.com:motorollainlinux/GitTest.git
+ * [new branch]      master -> master
+
+ ~/Р/GitRepo/tmp  master    
